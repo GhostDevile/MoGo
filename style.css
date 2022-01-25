@@ -91,7 +91,7 @@
 
 .slider{
     width:100%;
-    position: absolute;
+    padding-top: 190px;
     bottom: 0;
     left: 0;
     z-index: 1;
@@ -127,8 +127,7 @@
        height: 3px;
        
        background-color: #f38181;
-
-       position: absolute;
+       padding: 50px;
        top: -3px;
        left: 0;
        z-index: 1;

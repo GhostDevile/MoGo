@@ -109,7 +109,7 @@
 
     border-top: 3px solid #fff;
     opacity: .7;
-    opacity: relative;
+    position: relative;
 
     font-size: 18px; 
     color: #fff;
@@ -120,14 +120,14 @@
        opacity: 1;
    }
 
-   .slider__item .active:before{
+   .active:before{
        content: "";
-       display: block;
+       position: absolute;
+       display: inline-block;
        width: 70px;
        height: 3px;
        
        background-color: #f38181;
-       padding: 50px;
        top: -3px;
        left: 0;
        z-index: 1;

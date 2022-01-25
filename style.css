@@ -1,0 +1,205 @@
+
+
+.header {
+    background-image: url(../images/bg.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__top {
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__list-link {
+    margin-left: 50px;
+    color: #fff;
+    transition: .5s;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.nav__list-link:hover {
+    color: #fce38a;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #fce38a;
+}
+.header__box {
+    display: flex;
+    
+}
+.cart {
+    color: #fff;
+
+}
+.search {
+    margin-left: 40px;
+    color: #fff;
+}
+
+
+.header__info{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+   
+    
+}
+.header__title::before{
+    content: "";
+    width: 62px;
+    height: 5px;
+    background-color: #fff;
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+}
+.header__uptitle {
+    font-family: 'Kaushan Script', cursive; 
+    font-size: 72px;
+    color: #fff;
+}
+.header__title{
+    font-size: 130px;
+    color: #fff;
+    position: relative;
+    padding-bottom: 50px;
+    margin-bottom: 60px;
+    font-weight: 500;
+}
+.header__bottom-link {
+    padding: 10px 40px;
+    border: 2px solid #ffff;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.header__bottom-link:hover{
+    color: black;
+    background-color: #fff;
+}
+
+.slider{
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+   }
+
+
+.slider__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__item{
+    width:23%;
+    padding: 20px 0;
+
+    border-top: 3px solid #fff;
+    opacity: .7;
+    opacity: relative;
+
+    font-size: 18px; 
+    color: #fff;
+    text-transform: uppercase;
+   }
+
+.slider__item .active{
+       opacity: 1;
+   }
+
+   .slider__item .active:before{
+       content: "";
+       display: block;
+       width: 70px;
+       height: 3px;
+       
+       background-color: #f38181;
+
+       position: absolute;
+       top: -3px;
+       left: 0;
+       z-index: 1;
+   }
+
+ .slider__num{
+    font-size: 24px; 
+    font-weight: 700;
+}
+
+
+.section{
+    padding: 80px 0;
+    }
+    
+    .section__header{
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+
+    text-align: center;
+    }
+
+    .section__suptitle{
+        font-family: 'Kaushan Script', 
+        cursive;
+        font-size: 24px;
+        color: #333;
+    }
+
+    .section__title{
+        font-size: 30px;
+        font-weight: 700; 
+        color: #333;
+        text-transform: uppercase; 
+    }
+
+    .section__title:after {
+        content: "";
+        display: block;
+        width: 60px; 
+        height: 3px;
+        margin: 30px auto;
+
+        background-color:#f38181
+    }
+
+    .section__text{
+        font-size: 15px;
+        color: #999;
+    }
+
+
+    .about {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about__item {
+        width: 380px;
+
+    }
+    .about__item:hover .adout__img img {
+    opacity: .3;
+    }
+
+.about__img {
+    background: linear-gradient(to bottom #f38181, #fce38a);
+}
+
+.about__img img {
+    display: block;
+    transition: opacity .1s linear;
+}

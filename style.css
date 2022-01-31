@@ -143,10 +143,20 @@
     padding: 80px 0;
     }
     
+    .section--devices{
+        padding-bottom: 0;
+
+
+        background: url("../images/forest.png")
+        center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
     .section__header{
     width: 100%;
     max-width: 950px;
-    margin: 0 auto 40px;
+    margin: 0 auto 50px;
 
     text-align: center;
     }
@@ -201,4 +211,93 @@
 .about__img img {
     display: block;
     transition: opacity .1s linear;
+}
+
+
+
+.statistics{
+    background-color: #95e1d3;
+}
+
+.stat{
+    display: flex;
+}
+
+.stat__item{
+    flex: 1 1 0;
+    padding: 70px 25px;
+
+    border-left: 1px solid #b5eae0;
+
+    text-align: center;
+    color:#fff;
+}
+
+.stat__item:last-child{
+    border-right: 1px solid #b5eae0;
+
+}
+
+.stat__count{
+    margin-bottom: 10px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.stat__text{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+
+
+.services{
+    display: flex;
+}
+
+.services__item{
+    flex: 1 1 0;
+    padding-left: 85px;
+    padding-right: 35px;
+    position: relative;
+}
+
+.services__icon{
+    position: absolute;
+    top: 0;
+    left: 28px;
+    z-index: 1;
+}
+
+.services__title{
+    margin-bottom: 10px;
+    
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+}
+.services__text{
+    font-size: 15px;
+    color: #999;
+}
+
+
+
+
+.devices {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.devices__item{
+    display: block;
+}
+.devices__item--iphone{
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+    z-index: 1;
 }
